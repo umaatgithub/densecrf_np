@@ -8,6 +8,7 @@ setup(
     version="0.0.1",
     author="Sadeep Jayasumana",
     author_email="sadeep@apache.org",
+    packages = ['densecrf_np'],
     ext_modules=cythonize(
         Extension(
             "densecrf_np.py_permutohedral",
