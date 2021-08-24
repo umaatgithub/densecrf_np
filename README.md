@@ -12,5 +12,5 @@ The purpose of this project is to make it easy to customise the DenseCRF impleme
 $ git clone https://github.com/sadeepj/densecrf_np.git
 $ cd densecrf_np
 $ python setup.py build_ext --inplace
-$ python example/run_demo.py
+$ python setup.py install --user
 ```
